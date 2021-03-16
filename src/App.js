@@ -1,10 +1,11 @@
-import './App.css';
+import React from 'react';
+import Login from './Views/Login/login';
 
 function App() {
   return (
-    <div>
-      <h1>Bug Tracker!</h1>
-    </div>
+    <>
+      <Login />
+    </>
   );
 }
 
