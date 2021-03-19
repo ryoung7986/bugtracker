@@ -1,0 +1,40 @@
+.loginBG {
+  width: 100vw;
+  height: 105vh;
+  background: url('../../images/bg-image.jpg');
+  background-size: cover;
+  margin-left: -20.6vw;
+  margin-top: -27px;
+  position: absolute;
+}
+
+.login-panel {
+  background-color: var(--prime-color);
+  width: 30vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 25vh auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login-panel h1 {
+  width: 100%;
+}
+
+.login-panel input {
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  padding-left: 8px;
+}
+
+.login-button {
+  margin-bottom: 20px;
+}

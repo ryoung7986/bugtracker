@@ -11,6 +11,7 @@ const slice = createSlice({
       const { name, password } = action.payload;
       state.admin = true;
       state.LoggedIn = true;
+      console.log(state);
     },
     signOut: (state) => {
       state.admin = false;

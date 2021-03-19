@@ -41,6 +41,7 @@ export default () => {
           value={formInput.password}
         />
         <button
+          className="login-button"
           type="submit"
           onClick={handleSubmit}>
           Login

@@ -1,0 +1,21 @@
+html {
+  margin-left: 20vw;
+  --prime-color: #eeebdd;
+  color: #810000;
+}
+
+button {
+  background: #810000;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: white;
+  font: normal bold 18px "Open Sans", sans-serif;
+  text-align: center;
+  width: 10vw
+}
+
+button:hover {
+  transition: all 0.5s;
+  background: #330000;
+  cursor: pointer;
+}
