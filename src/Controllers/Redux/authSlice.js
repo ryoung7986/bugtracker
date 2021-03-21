@@ -9,7 +9,7 @@ const slice = createSlice({
   reducers: {
     signIn: (state, action) => {
       const { name, password } = action.payload;
-      state.admin = true;
+      state.admin = false;
       state.LoggedIn = true;
       console.log(state);
     },

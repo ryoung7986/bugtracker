@@ -3,8 +3,7 @@
   height: 105vh;
   background: url('../../images/bg-image.jpg');
   background-size: cover;
-  margin-left: -20.6vw;
-  margin-top: -27px;
+  grid-column: 1/2;
   position: absolute;
 }
 
