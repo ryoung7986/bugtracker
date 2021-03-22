@@ -27,5 +27,6 @@ export function retrieveBugs() {
     time: "09:23",
   }))
 
-  return data.sort((a, b) => a.priority - b.priority)
+  let sorted = data.sort((a, b) => a.priority - b.priority);
+  return sorted;
 }
